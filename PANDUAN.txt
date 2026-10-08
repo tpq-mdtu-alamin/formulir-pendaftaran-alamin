@@ -1,0 +1,23 @@
+PANDUAN MEMASANG PWA TPQ & MDTU AL AMIN
+
+1. Buka repositori GitHub psb-al-amin-app.
+2. Klik Add file, lalu Upload files.
+3. Ekstrak ZIP ini di komputer.
+4. Unggah lima file berikut ke halaman utama repositori:
+   index.html
+   manifest.json
+   service-worker.js
+   icon-192.png
+   icon-512.png
+5. Klik Commit changes.
+6. Buka Settings repositori.
+7. Buka Pages.
+8. Pada Source pilih Deploy from a branch.
+9. Branch pilih main dan folder pilih /(root).
+10. Klik Save.
+11. Tunggu sekitar 1 sampai 3 menit.
+12. Buka alamat yang diberikan GitHub Pages menggunakan Chrome Android.
+13. Tekan tombol Instal Aplikasi atau menu Chrome lalu Instal aplikasi.
+
+Catatan:
+Code.gs harus memakai XFrameOptionsMode.ALLOWALL.
