@@ -8,17 +8,39 @@
 
   <link rel="icon" type="image/png" href="icon-192.png">
   <link rel="apple-touch-icon" href="icon-192.png">
-  <link rel="manifest" href="manifest.json">
+
+  <style>
+    html, body {
+      margin: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: white;
+    }
+
+    img {
+      width: 110px;
+      height: 110px;
+      object-fit: contain;
+    }
+  </style>
 </head>
 
 <body>
 
-  <p>Membuka formulir pendaftaran...</p>
+  <img src="icon-192.png" alt="AL AMIN">
 
   <script>
-    window.location.replace(
-      "https://script.google.com/macros/s/AKfycbxioVKGbuair5-3Mw3fm9t28-r7U2xj65nGWnmSm0vZofHmpaCYLDtrIM5bQP2NbhrOnQ/exec?form=pendaftaran"
-    );
+    setTimeout(function () {
+      window.location.replace(
+        "https://script.google.com/macros/s/AKfycbxioVKGbuair5-3Mw3fm9t28-r7U2xj65nGWnmSm0vZofHmpaCYLDtrIM5bQP2NbhrOnQ/exec?form=pendaftaran"
+      );
+    }, 500);
   </script>
 
 </body>
